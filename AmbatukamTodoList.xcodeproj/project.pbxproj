@@ -16,6 +16,7 @@
 		F87EB9C02B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */; };
 		F87EB9C22B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */; };
 		F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */; };
+		F87EB9C72B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C52B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld */; };
 		F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */; };
 		F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65572B1ABCA600C7DFDE /* ListView.swift */; };
 		F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListItem.swift; sourceTree = "<group>"; };
 		F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListViewModel.swift; sourceTree = "<group>"; };
 		F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoListItemView.swift; sourceTree = "<group>"; };
+		F87EB9C62B1C693600ADAA5B /* AmbatukamDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmbatukamDataModel.xcdatamodel; sourceTree = "<group>"; };
 		F8EB65522B1ABCA600C7DFDE /* AmbatukamTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbatukamTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListApp.swift; sourceTree = "<group>"; };
 		F8EB65572B1ABCA600C7DFDE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F87EB9C92B1C695100ADAA5B /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F87EB9C52B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
 		F8EB65492B1ABCA600C7DFDE = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		F8EB65542B1ABCA600C7DFDE /* AmbatukamTodoList */ = {
 			isa = PBXGroup;
 			children = (
+				F87EB9C92B1C695100ADAA5B /* Supporting */,
 				F87EB9BE2B1C3AC000ADAA5B /* Models */,
 				F87EB9BD2B1C3AB000ADAA5B /* ViewModels */,
 				F87EB9BC2B1C3AA500ADAA5B /* Views */,
@@ -205,6 +216,7 @@
 				F87EB9C22B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift in Sources */,
 				F87EB9C02B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift in Sources */,
 				F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */,
+				F87EB9C72B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld in Sources */,
 				F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */,
 				F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */,
 			);
@@ -409,6 +421,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F87EB9C52B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F87EB9C62B1C693600ADAA5B /* AmbatukamDataModel.xcdatamodel */,
+			);
+			currentVersion = F87EB9C62B1C693600ADAA5B /* AmbatukamDataModel.xcdatamodel */;
+			path = AmbatukamDataModel2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F8EB654A2B1ABCA600C7DFDE /* Project object */;
 }

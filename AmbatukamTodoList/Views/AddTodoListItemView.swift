@@ -51,7 +51,6 @@ struct AddTodoListItemView: View {
                                             .frame(width: geo.size.width/4, height: geo.size.width/4)
                                             .onTapGesture {
                                                 imageSelected = imageIndex
-                                                print("Image Selected is \(imageSelected)")
                                             }
                                     } else {
                                         Image("Ambatukam\(imageIndex)")
@@ -59,7 +58,6 @@ struct AddTodoListItemView: View {
                                             .frame(width: geo.size.width/4, height: geo.size.width/4)
                                             .onTapGesture {
                                                 imageSelected = imageIndex
-                                                print("Image Selected is \(imageSelected)")
                                             }
                                     }
                                 }
@@ -103,10 +101,18 @@ struct AddTodoListItemView: View {
                     }
                     Spacer()
                     Button {
+//                        AmbatukamTodoListItem(context: moc)
+//                        viewModel.appendTodoListItem(item: AmbatukamTodoListItem(context: moc))
                         viewModel.appendTodoListItem(item: AmbatukamTodoListItem(
                             imageURL: "Ambatukam\(imageSelected)",
                             soundURL: soundList[soundSelected],
                             content: todoListItemText))
+                        /*
+                         AmbatukamTodoListItem(
+                             imageURL: "Ambatukam\(imageSelected)",
+                             soundURL: soundList[soundSelected],
+                             content: todoListItemText)
+                         */
                         dismiss()
                     } label: {
                         ZStack {

@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ListView: View {
     
-    @StateObject var ambatukamViewModel = AmbatukamTodoListViewModel()
+    //@ObservedObject var ambatukamViewModel: AmbatukamTodoListViewModel
+    @StateObject private var ambatukamViewModel = AmbatukamTodoListViewModel()
     @State var isActive = false
     
     var body: some View {
