@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F87EB9B62B1C3A2800ADAA5B /* AMBASSING.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B02B1C3A2700ADAA5B /* AMBASSING.mp3 */; };
+		F87EB9B72B1C3A2800ADAA5B /* THANKYOUSOMUCH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B12B1C3A2700ADAA5B /* THANKYOUSOMUCH.mp3 */; };
+		F87EB9B82B1C3A2800ADAA5B /* OMAYGOT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B22B1C3A2700ADAA5B /* OMAYGOT.mp3 */; };
+		F87EB9B92B1C3A2800ADAA5B /* AMBATUKAM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B32B1C3A2700ADAA5B /* AMBATUKAM.mp3 */; };
+		F87EB9BA2B1C3A2800ADAA5B /* AMBATUKAM2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B42B1C3A2700ADAA5B /* AMBATUKAM2.mp3 */; };
+		F87EB9BB2B1C3A2800ADAA5B /* AMBATUNAT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B52B1C3A2800ADAA5B /* AMBATUNAT.mp3 */; };
+		F87EB9C02B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */; };
+		F87EB9C22B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */; };
+		F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */; };
 		F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */; };
-		F8EB65582B1ABCA600C7DFDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65572B1ABCA600C7DFDE /* ContentView.swift */; };
+		F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65572B1ABCA600C7DFDE /* ListView.swift */; };
 		F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */; };
 		F8EB655D2B1ABCA700C7DFDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB655C2B1ABCA700C7DFDE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F87EB9B02B1C3A2700ADAA5B /* AMBASSING.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBASSING.mp3; sourceTree = "<group>"; };
+		F87EB9B12B1C3A2700ADAA5B /* THANKYOUSOMUCH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = THANKYOUSOMUCH.mp3; sourceTree = "<group>"; };
+		F87EB9B22B1C3A2700ADAA5B /* OMAYGOT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OMAYGOT.mp3; sourceTree = "<group>"; };
+		F87EB9B32B1C3A2700ADAA5B /* AMBATUKAM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBATUKAM.mp3; sourceTree = "<group>"; };
+		F87EB9B42B1C3A2700ADAA5B /* AMBATUKAM2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBATUKAM2.mp3; sourceTree = "<group>"; };
+		F87EB9B52B1C3A2800ADAA5B /* AMBATUNAT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBATUNAT.mp3; sourceTree = "<group>"; };
+		F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListItem.swift; sourceTree = "<group>"; };
+		F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListViewModel.swift; sourceTree = "<group>"; };
+		F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoListItemView.swift; sourceTree = "<group>"; };
 		F8EB65522B1ABCA600C7DFDE /* AmbatukamTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbatukamTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListApp.swift; sourceTree = "<group>"; };
-		F8EB65572B1ABCA600C7DFDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8EB65572B1ABCA600C7DFDE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8EB655C2B1ABCA700C7DFDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +50,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F87EB9AF2B1C3A1D00ADAA5B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F87EB9B02B1C3A2700ADAA5B /* AMBASSING.mp3 */,
+				F87EB9B32B1C3A2700ADAA5B /* AMBATUKAM.mp3 */,
+				F87EB9B42B1C3A2700ADAA5B /* AMBATUKAM2.mp3 */,
+				F87EB9B52B1C3A2800ADAA5B /* AMBATUNAT.mp3 */,
+				F87EB9B22B1C3A2700ADAA5B /* OMAYGOT.mp3 */,
+				F87EB9B12B1C3A2700ADAA5B /* THANKYOUSOMUCH.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F87EB9BC2B1C3AA500ADAA5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB65572B1ABCA600C7DFDE /* ListView.swift */,
+				F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F87EB9BD2B1C3AB000ADAA5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F87EB9BE2B1C3AC000ADAA5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F8EB65492B1ABCA600C7DFDE = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +107,11 @@
 		F8EB65542B1ABCA600C7DFDE /* AmbatukamTodoList */ = {
 			isa = PBXGroup;
 			children = (
+				F87EB9BE2B1C3AC000ADAA5B /* Models */,
+				F87EB9BD2B1C3AB000ADAA5B /* ViewModels */,
+				F87EB9BC2B1C3AA500ADAA5B /* Views */,
+				F87EB9AF2B1C3A1D00ADAA5B /* Sound */,
 				F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */,
-				F8EB65572B1ABCA600C7DFDE /* ContentView.swift */,
 				F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */,
 				F8EB655B2B1ABCA700C7DFDE /* Preview Content */,
 			);
@@ -125,8 +184,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87EB9BB2B1C3A2800ADAA5B /* AMBATUNAT.mp3 in Resources */,
 				F8EB655D2B1ABCA700C7DFDE /* Preview Assets.xcassets in Resources */,
 				F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */,
+				F87EB9B92B1C3A2800ADAA5B /* AMBATUKAM.mp3 in Resources */,
+				F87EB9B72B1C3A2800ADAA5B /* THANKYOUSOMUCH.mp3 in Resources */,
+				F87EB9BA2B1C3A2800ADAA5B /* AMBATUKAM2.mp3 in Resources */,
+				F87EB9B82B1C3A2800ADAA5B /* OMAYGOT.mp3 in Resources */,
+				F87EB9B62B1C3A2800ADAA5B /* AMBASSING.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EB65582B1ABCA600C7DFDE /* ContentView.swift in Sources */,
+				F87EB9C22B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift in Sources */,
+				F87EB9C02B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift in Sources */,
+				F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */,
 				F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */,
+				F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +341,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +371,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
