@@ -17,6 +17,7 @@
 		F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */; };
 		F87EB9CC2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9CA2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld */; };
 		F87EB9CF2B1DA49C00ADAA5B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */; };
+		F87EB9D12B1DDAFB00ADAA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9D02B1DDAFB00ADAA5B /* AppDelegate.swift */; };
 		F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */; };
 		F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65572B1ABCA600C7DFDE /* ListView.swift */; };
 		F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoListItemView.swift; sourceTree = "<group>"; };
 		F87EB9CB2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmbatukamTodoListDataModel.xcdatamodel; sourceTree = "<group>"; };
 		F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		F87EB9D02B1DDAFB00ADAA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8EB65522B1ABCA600C7DFDE /* AmbatukamTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbatukamTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListApp.swift; sourceTree = "<group>"; };
 		F8EB65572B1ABCA600C7DFDE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */,
+				F87EB9D02B1DDAFB00ADAA5B /* AppDelegate.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				F87EB9CC2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld in Sources */,
 				F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */,
 				F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */,
+				F87EB9D12B1DDAFB00ADAA5B /* AppDelegate.swift in Sources */,
 				F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */,
 				F87EB9CF2B1DA49C00ADAA5B /* SoundManager.swift in Sources */,
 			);

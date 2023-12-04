@@ -58,6 +58,8 @@ struct ListView: View {
                     .onDelete { indexSet in
                         for index in indexSet {
                             let todoListItem = ambatukamTodoListItems[index]
+                            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [ambatukamTodoListItems[index].id!.uuidString])
+                            UNUserNotificationCenter.current().removeDeliveredNotifications(withIdentifiers: [ambatukamTodoListItems[index].id!.uuidString])
                             moc.delete(todoListItem)
                         }
                         try? moc.save()
