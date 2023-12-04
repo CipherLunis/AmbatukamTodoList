@@ -10,7 +10,7 @@ import Foundation
 
 class AmbatukamTodoListViewModel: ObservableObject {
     
-    let container = NSPersistentContainer(name: "Ambatukam")
+    let container = NSPersistentContainer(name: "AmbatukamTodoListDataModel")
     
     init() {
         container.loadPersistentStores { description, error in
@@ -20,16 +20,12 @@ class AmbatukamTodoListViewModel: ObservableObject {
         }
     }
     
-    @Published var todoListData: [AmbatukamTodoListItem] = [
-        AmbatukamTodoListItem(imageURL: "Ambatukam1", soundURL: "AMBASSING", content: "AMBASSING"),
-        AmbatukamTodoListItem(imageURL: "Ambatukam2", soundURL: "AMBATUKAM", content: "AMBATUKAM"),
-        AmbatukamTodoListItem(imageURL: "Ambatukam3", soundURL: "AMBATUKAM2", content: "AMBATUKAM2"),
-        AmbatukamTodoListItem(imageURL: "Ambatukam4", soundURL: "AMBATUNAT", content: "AMBATUNAT"),
-        AmbatukamTodoListItem(imageURL: "Ambatukam5", soundURL: "OMAYGOT", content: "OMAYGOT"),
-        AmbatukamTodoListItem(imageURL: "Ambatukam5", soundURL: "THANKYOUSOMUCH", content: "THANKYOUSOMUCH")
-    ]
-    
-    func appendTodoListItem(item todoListDataItem: AmbatukamTodoListItem) {
-        todoListData.append(todoListDataItem)
+    func formatDate(date: Date) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "h:mm a 'on' MMMM dd, yyyy"
+        dateFormatter.amSymbol = "AM"
+        dateFormatter.pmSymbol = "PM"
+        return dateFormatter.string(from: date)
     }
 }

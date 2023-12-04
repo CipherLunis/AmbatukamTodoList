@@ -13,10 +13,10 @@
 		F87EB9B92B1C3A2800ADAA5B /* AMBATUKAM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B32B1C3A2700ADAA5B /* AMBATUKAM.mp3 */; };
 		F87EB9BA2B1C3A2800ADAA5B /* AMBATUKAM2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B42B1C3A2700ADAA5B /* AMBATUKAM2.mp3 */; };
 		F87EB9BB2B1C3A2800ADAA5B /* AMBATUNAT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F87EB9B52B1C3A2800ADAA5B /* AMBATUNAT.mp3 */; };
-		F87EB9C02B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */; };
 		F87EB9C22B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */; };
 		F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */; };
-		F87EB9C72B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9C52B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld */; };
+		F87EB9CC2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9CA2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld */; };
+		F87EB9CF2B1DA49C00ADAA5B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */; };
 		F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */; };
 		F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65572B1ABCA600C7DFDE /* ListView.swift */; };
 		F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */; };
@@ -30,10 +30,10 @@
 		F87EB9B32B1C3A2700ADAA5B /* AMBATUKAM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBATUKAM.mp3; sourceTree = "<group>"; };
 		F87EB9B42B1C3A2700ADAA5B /* AMBATUKAM2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBATUKAM2.mp3; sourceTree = "<group>"; };
 		F87EB9B52B1C3A2800ADAA5B /* AMBATUNAT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AMBATUNAT.mp3; sourceTree = "<group>"; };
-		F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListItem.swift; sourceTree = "<group>"; };
 		F87EB9C12B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListViewModel.swift; sourceTree = "<group>"; };
 		F87EB9C32B1C450600ADAA5B /* AddTodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoListItemView.swift; sourceTree = "<group>"; };
-		F87EB9C62B1C693600ADAA5B /* AmbatukamDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmbatukamDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F87EB9CB2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmbatukamTodoListDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		F8EB65522B1ABCA600C7DFDE /* AmbatukamTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbatukamTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListApp.swift; sourceTree = "<group>"; };
 		F8EB65572B1ABCA600C7DFDE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -82,18 +82,18 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		F87EB9BE2B1C3AC000ADAA5B /* Models */ = {
+		F87EB9C92B1C695100ADAA5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F87EB9BF2B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift */,
+				F87EB9CA2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F87EB9C92B1C695100ADAA5B /* Supporting */ = {
+		F87EB9CD2B1DA49100ADAA5B /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				F87EB9C52B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld */,
+				F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -117,8 +117,8 @@
 		F8EB65542B1ABCA600C7DFDE /* AmbatukamTodoList */ = {
 			isa = PBXGroup;
 			children = (
-				F87EB9C92B1C695100ADAA5B /* Supporting */,
-				F87EB9BE2B1C3AC000ADAA5B /* Models */,
+				F87EB9CD2B1DA49100ADAA5B /* Supporting */,
+				F87EB9C92B1C695100ADAA5B /* Models */,
 				F87EB9BD2B1C3AB000ADAA5B /* ViewModels */,
 				F87EB9BC2B1C3AA500ADAA5B /* Views */,
 				F87EB9AF2B1C3A1D00ADAA5B /* Sound */,
@@ -214,11 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87EB9C22B1C3BC500ADAA5B /* AmbatukamTodoListViewModel.swift in Sources */,
-				F87EB9C02B1C3ADE00ADAA5B /* AmbatukamTodoListItem.swift in Sources */,
+				F87EB9CC2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld in Sources */,
 				F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */,
-				F87EB9C72B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld in Sources */,
 				F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */,
 				F87EB9C42B1C450600ADAA5B /* AddTodoListItemView.swift in Sources */,
+				F87EB9CF2B1DA49C00ADAA5B /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +356,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +387,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,13 +425,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F87EB9C52B1C693600ADAA5B /* AmbatukamDataModel2.xcdatamodeld */ = {
+		F87EB9CA2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F87EB9C62B1C693600ADAA5B /* AmbatukamDataModel.xcdatamodel */,
+				F87EB9CB2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodel */,
 			);
-			currentVersion = F87EB9C62B1C693600ADAA5B /* AmbatukamDataModel.xcdatamodel */;
-			path = AmbatukamDataModel2.xcdatamodeld;
+			currentVersion = F87EB9CB2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodel */;
+			path = AmbatukamTodoListDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

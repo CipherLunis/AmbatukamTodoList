@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="AmbatukamTodoListItem2" representedClassName="AmbatukamTodoListItem2" syncable="YES" codeGenerationType="class">
+    <entity name="AmbatukamTodoListItem" representedClassName="AmbatukamTodoListItem" syncable="YES" codeGenerationType="class">
         <attribute name="content" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="notificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="soundIsPlaying" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="soundURL" optional="YES" attributeType="String"/>
     </entity>
 </model>

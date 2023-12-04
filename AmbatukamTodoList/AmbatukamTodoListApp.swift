@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct AmbatukamTodoListApp: App {
-    //@StateObject private var viewModel = AmbatukamTodoListViewModel()
+    @StateObject private var viewModel = AmbatukamTodoListViewModel()
     
     var body: some Scene {
         WindowGroup {
-            ListView()
-                //.environment(\.managedObjectContext, viewModel.container.viewContext)
+            ListView(ambatukamViewModel: viewModel)
+                .environment(\.managedObjectContext, viewModel.container.viewContext)
         }
     }
 }
