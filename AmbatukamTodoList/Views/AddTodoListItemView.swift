@@ -32,7 +32,7 @@ struct AddTodoListItemView: View {
                             TextField("Add item here", text: $todoListItemText)
                                 .font(.system(size: isIPad ? 40 : 20))
                         }
-                        .frame(width: geo.size.width/1.1, height: isIPad ? geo.size.height/15 : geo.size.height/25)
+                        .frame(width: geo.size.width/1.1, height: isIPad ? geo.size.height/15 : geo.size.height/20)
                         .background(Color(.systemGray5))
                         .cornerRadius(10)
                         Spacer()
@@ -69,8 +69,8 @@ struct AddTodoListItemView: View {
                             }
                         }
                         .padding()
+                        Divider()
                     }
-                    Divider()
                     VStack {
                         HStack {
                             Text("AMBATUKAM SOUNDS:")
@@ -124,7 +124,6 @@ struct AddTodoListItemView: View {
                         .padding(.leading, 20)
                         Divider()
                     }
-                    
                     Button {
                         let ambatukamTodoListItem = AmbatukamTodoListItem(context: moc)
                         ambatukamTodoListItem.id = UUID()
@@ -157,10 +156,18 @@ struct AddTodoListItemView: View {
                                 .font(.system(size: isIPad ? 40 : 20))
                         }
                     }
+                    .padding(.top, -20)
                     .disabled(todoListItemText.isEmpty || imageSelected == -1 || soundSelected == -1)
                     .opacity((todoListItemText.isEmpty || imageSelected == -1 || soundSelected == -1) ? 0.5 : 1.0)
                 }
                 .navigationBarTitle(Text(""), displayMode: .inline)
+        }
+        .onAppear {
+            UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont.systemFont(ofSize: isIPad ? 60 : 35, weight: .bold)]
+        }
+        .onTapGesture {
+            // close keyboard when tap UI
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         }
         .ignoresSafeArea(.keyboard)
     }

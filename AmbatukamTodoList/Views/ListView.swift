@@ -15,7 +15,9 @@ struct ListView: View {
     @FetchRequest(sortDescriptors: []) var ambatukamTodoListItems: FetchedResults<AmbatukamTodoListItem>
     @StateObject private var soundManager = SoundManager()
     @State var isActive = false
-    // rows --> button/row not differentiated
+    
+    let isIPad = UIDevice.current.userInterfaceIdiom == .pad
+    
     var body: some View {
         GeometryReader { geo in
             NavigationView {
@@ -60,15 +62,19 @@ struct ListView: View {
                         }
                         try? moc.save()
                     }
-                }                .toolbar {
+                }
+                .toolbar {
                     NavigationLink(destination: AddTodoListItemView(), isActive: $isActive) {
                         Image(systemName: "plus")
+                            .font(.system(size: isIPad ? 60 : 20))
                     }
                 }
                 .navigationTitle(!isActive ? "Ambatukam Todo List" : "Back")
             }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
         .onAppear {
+            UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont.systemFont(ofSize: isIPad ? 60 : 35, weight: .bold)]
             soundManager.viewModel = ambatukamViewModel
             UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
                 if let error = error {

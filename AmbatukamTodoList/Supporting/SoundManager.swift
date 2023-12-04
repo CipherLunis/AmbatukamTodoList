@@ -57,6 +57,7 @@ class SoundManager: NSObject, AVAudioPlayerDelegate, ObservableObject {
         
         if let player = audioPlayers[url] { // player exists for sound
             if(player.isPlaying == false) {
+                player.delegate = self
                 player.prepareToPlay()
                 player.play()
             }
