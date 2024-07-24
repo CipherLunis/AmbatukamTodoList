@@ -18,6 +18,8 @@
 		F87EB9CC2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9CA2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodeld */; };
 		F87EB9CF2B1DA49C00ADAA5B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */; };
 		F87EB9D12B1DDAFB00ADAA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB9D02B1DDAFB00ADAA5B /* AppDelegate.swift */; };
+		F8A26F712C50A9080001F58B /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A26F6F2C50A9080001F58B /* Screenshot1.png */; };
+		F8A26F722C50A9080001F58B /* Screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8A26F702C50A9080001F58B /* Screenshot2.png */; };
 		F8EB65562B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */; };
 		F8EB65582B1ABCA600C7DFDE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EB65572B1ABCA600C7DFDE /* ListView.swift */; };
 		F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB65592B1ABCA700C7DFDE /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 		F87EB9CB2B1D885200ADAA5B /* AmbatukamTodoListDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmbatukamTodoListDataModel.xcdatamodel; sourceTree = "<group>"; };
 		F87EB9CE2B1DA49C00ADAA5B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		F87EB9D02B1DDAFB00ADAA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8A26F6F2C50A9080001F58B /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		F8A26F702C50A9080001F58B /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
 		F8EB65522B1ABCA600C7DFDE /* AmbatukamTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbatukamTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB65552B1ABCA600C7DFDE /* AmbatukamTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbatukamTodoListApp.swift; sourceTree = "<group>"; };
 		F8EB65572B1ABCA600C7DFDE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
+		F8A26F6E2C50A6D40001F58B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F8A26F6F2C50A9080001F58B /* Screenshot1.png */,
+				F8A26F702C50A9080001F58B /* Screenshot2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F8EB65492B1ABCA600C7DFDE = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +133,7 @@
 		F8EB65542B1ABCA600C7DFDE /* AmbatukamTodoList */ = {
 			isa = PBXGroup;
 			children = (
+				F8A26F6E2C50A6D40001F58B /* Images */,
 				F87EB9CD2B1DA49100ADAA5B /* Supporting */,
 				F87EB9C92B1C695100ADAA5B /* Models */,
 				F87EB9BD2B1C3AB000ADAA5B /* ViewModels */,
@@ -198,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A26F722C50A9080001F58B /* Screenshot2.png in Resources */,
+				F8A26F712C50A9080001F58B /* Screenshot1.png in Resources */,
 				F87EB9BB2B1C3A2800ADAA5B /* AMBATUNAT.mp3 in Resources */,
 				F8EB655D2B1ABCA700C7DFDE /* Preview Assets.xcassets in Resources */,
 				F8EB655A2B1ABCA700C7DFDE /* Assets.xcassets in Resources */,
@@ -354,6 +370,7 @@
 				DEVELOPMENT_TEAM = XAU9475CXA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ambatukam;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -385,6 +402,7 @@
 				DEVELOPMENT_TEAM = XAU9475CXA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ambatukam;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
